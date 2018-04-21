@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ca.Login">
+        <methods>
+          <include name="f"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- ca.Login -->
+      <class name="ca.DashboardNewtasks">
+        <methods>
+          <include name="logout"/>
+          <include name="select"/>
+          <include name="backdashboard"/>
+          <include name="scroll"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- ca.DashboardNewtasks -->
+      <class name="ca.DashboardPendingtasks">
+        <methods>
+          <include name="pending_task"/>
+          <include name="slide"/>
+          <include name="click_view"/>
+          <include name="login"/>
+          <include name="select"/>
+        </methods>
+      </class> <!-- ca.DashboardPendingtasks -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

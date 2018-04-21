@@ -1,0 +1,16 @@
+package NFAI;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Requirements {
+
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.in/");
+		driver.findElement(By.xpath(".//*[@id='navFooter']/table/tbody/tr/td[7]/ul/li[5]/a")).click();
+	}
+}

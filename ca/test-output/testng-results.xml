@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-10T11:21:52Z" name="Suite" finished-at="2018-04-10T11:23:34Z" duration-ms="101965">
+    <groups>
+    </groups>
+    <test started-at="2018-04-10T11:21:52Z" name="Test" finished-at="2018-04-10T11:23:34Z" duration-ms="101965">
+      <class name="ca.DashboardNewtasks">
+        <test-method is-config="true" signature="login()[pri:0, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:51:52Z" name="login" finished-at="2018-04-10T16:52:15Z" duration-ms="22876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ca.DashboardPendingtasks@65d09a04]" started-at="2018-04-10T16:52:15Z" name="login" finished-at="2018-04-10T16:52:34Z" duration-ms="18444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ca.Login@4961f6af]" started-at="2018-04-10T16:52:34Z" name="login" finished-at="2018-04-10T16:52:44Z" duration-ms="9919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="new_task()[pri:1, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:52:52Z" name="new_task" finished-at="2018-04-10T16:52:58Z" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new_task -->
+        <test-method signature="view()[pri:2, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:52:58Z" name="view" finished-at="2018-04-10T16:53:00Z" duration-ms="2455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view -->
+        <test-method signature="edit()[pri:3, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:53:00Z" name="edit" finished-at="2018-04-10T16:53:03Z" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method signature="sliders()[pri:4, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:53:03Z" name="sliders" finished-at="2018-04-10T16:53:04Z" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliders -->
+        <test-method signature="select()[pri:5, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:53:04Z" name="select" finished-at="2018-04-10T16:53:06Z" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method signature="scroll()[pri:6, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:53:06Z" name="scroll" finished-at="2018-04-10T16:53:11Z" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method signature="backdashboard()[pri:7, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:53:11Z" name="backdashboard" finished-at="2018-04-10T16:53:16Z" duration-ms="5406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backdashboard -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ca.DashboardNewtasks@5aebe890]" started-at="2018-04-10T16:53:34Z" name="logout" finished-at="2018-04-10T16:53:34Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ca.DashboardPendingtasks@65d09a04]" started-at="2018-04-10T16:53:34Z" name="logout" finished-at="2018-04-10T16:53:34Z" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ca.Login@4961f6af]" started-at="2018-04-10T16:53:34Z" name="logout" finished-at="2018-04-10T16:53:34Z" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ca.DashboardNewtasks -->
+      <class name="ca.DashboardPendingtasks">
+        <test-method signature="pending_task()[pri:1, instance:ca.DashboardPendingtasks@65d09a04]" started-at="2018-04-10T16:53:16Z" name="pending_task" finished-at="2018-04-10T16:53:21Z" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pending_task -->
+        <test-method signature="click_view()[pri:2, instance:ca.DashboardPendingtasks@65d09a04]" started-at="2018-04-10T16:53:21Z" name="click_view" finished-at="2018-04-10T16:53:27Z" duration-ms="5103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_view -->
+        <test-method signature="select()[pri:3, instance:ca.DashboardPendingtasks@65d09a04]" started-at="2018-04-10T16:53:27Z" name="select" finished-at="2018-04-10T16:53:32Z" duration-ms="5658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method signature="slide()[pri:4, instance:ca.DashboardPendingtasks@65d09a04]" started-at="2018-04-10T16:53:32Z" name="slide" finished-at="2018-04-10T16:53:34Z" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slide -->
+      </class> <!-- ca.DashboardPendingtasks -->
+      <class name="ca.Login">
+        <test-method signature="f()[pri:0, instance:ca.Login@4961f6af]" started-at="2018-04-10T16:52:44Z" name="f" finished-at="2018-04-10T16:52:52Z" duration-ms="8428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- ca.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
